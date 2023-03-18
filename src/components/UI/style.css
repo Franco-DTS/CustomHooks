@@ -1,0 +1,88 @@
+form {
+    background-color: white;
+    padding-top: 120px;
+    padding-bottom: 120px;
+    width: 600px;
+    border: 1px solid black;
+}
+
+body {
+    background-color: whitesmoke;
+}
+
+h1 {
+    margin-bottom: 20px;
+}
+
+.login {
+    color:rgba(11, 165, 247, 0.908);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    gap:20px;
+}
+
+.user {
+    display: flex;
+    flex-direction: column;
+    gap:12px;
+    align-items: center;
+}
+
+.password {
+    display: flex;
+    flex-direction: column;
+    gap:12px;
+    align-items: center;
+}
+
+input {
+    width: 40%;
+    border-radius: 8px;
+}
+
+label {
+    font-size: larger;
+    font-weight: bold;
+}
+
+
+.btn-login {
+    color: whitesmoke;
+    background-color: rgba(11, 165, 247, 0.908);
+    margin-top: 32px;
+    border: 1px solid black;
+    border-radius: 6px;
+    width: fit-content;
+    font-size: larger;
+    font-weight: bold;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+button {
+    color: whitesmoke;
+    background-color: rgba(11, 165, 247, 0.908);
+    margin-top: 32px;
+    border: 1px solid black;
+    border-radius: 6px;
+    width: fit-content;
+    font-size: larger;
+    font-weight: bold;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+.buttons {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
